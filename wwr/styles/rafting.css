@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #555;
+  --accent-color: #f00;
+  --background-color: #fff;
+  --text-color: #000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.history {
+  padding-top: 8rem;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--accent-color);
+}
+
+.hero article {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.hero article img {
+  float: right;
+  margin-left: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+footer a {
+  margin: 0 0.5rem;
+}
+
+footer a img {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
