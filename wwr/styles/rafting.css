@@ -132,3 +132,76 @@ footer a img {
   height: 24px;
   text-decoration: none;
 }
+
+.contact-section {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  color: var(--background-color);
+  position: relative;
+  min-height: 200px;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  position: relative;
+  top: -100px;
+}
+
+.contact-option {
+  text-align: center;
+  background-color: var(--background-color);
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 40%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-group input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  width: 99%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}
+
+.primary-link {
+  color: white;
+  text-decoration: none;
+}
